@@ -16,6 +16,9 @@ Example output:
 14:45:23        0.0507  (+)
 ```
 
+PHP version can be found here:
+https://gist.github.com/cloudminingpools/251d1eab4462a1108dba8c9129f151f0
+
 If this or anything on my GitHub helped you, informed you or made you smile, or if you've just got some superfluous BTC lying around, feel free to drop a penny into this bitcoin fountain to help a guy through university: `385GUu3BjjpkijKS2aFU2t4NqvmFXdnX9x` 
 
 Thanks for reading!
