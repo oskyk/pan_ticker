@@ -7,7 +7,7 @@ first_loop_done = 0
 
 while True:
     time_now = str(datetime.datetime.now().strftime('%H:%M:%S')) 
-    req = Request('https://kg7jyq8yn3nzcwzxnl7r.bitpanda.com/v1/ticker', headers={'User-Agent': 'Mozilla/5.0'})
+    req = Request('https://api.bitpanda.com/v1/ticker', headers={'User-Agent': 'Mozilla/5.0'})
     webpage = urlopen(req).read()
     webpage_json = json.loads(webpage)
     pan_price_new = float(webpage_json['PAN']['EUR'])
